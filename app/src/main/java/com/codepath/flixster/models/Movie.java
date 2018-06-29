@@ -13,6 +13,7 @@ public class Movie {
      String posterPath; //only the path
      String backdropPath;
      Double voteAverage;
+     Integer id;
 
 
      //no-arg constructor
@@ -29,6 +30,7 @@ public class Movie {
 
         //intialize voteAverage
         voteAverage = object.getDouble("vote_average");
+        id = object.getInt("id");
 
     }
 
@@ -50,5 +52,9 @@ public class Movie {
 
     public Double getVoteAverage() {
         return voteAverage;
+    }
+
+    public Integer getId() {
+        return id;
     }
 }
