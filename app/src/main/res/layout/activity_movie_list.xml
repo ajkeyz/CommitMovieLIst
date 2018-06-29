@@ -12,5 +12,5 @@
         android:layout_height="match_parent"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:background="@android:color/black" />
+        android:background="@drawable/backg" />
 </RelativeLayout>
